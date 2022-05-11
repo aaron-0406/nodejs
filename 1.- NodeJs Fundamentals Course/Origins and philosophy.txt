@@ -1,0 +1,36 @@
+
+ORIGINS AND PHILOSOPHY
+\\\\\\\\\\\\\\\\\\\\\\\
+
+What is NodeJS?
+---------------
+- A JavaScript runtime enviroment outside the browser.
+- Is created in 2009, server oriented.
+
+
+Outside the browser?
+--------------------
+- Servers
+- Tools: transpilers, scraping, automation, etc.
+
+
+NodeJS Features
+---------------
+
+* Concurrence:
+    - Monowire, with asynchronous inputs and outputs
+    - One processor for each processor core.
+
+* V8 Engine:
+    - JS runtime enviroment created by Google, and free since 2008.
+    - Written in C++
+    - Convert JS into machine code instead of interpreting it in real time.
+
+* Modules:
+    - Everything that is not programming syntax is modules.
+    - Many modules come by default in the Node package.
+    - You can create your own modules.
+
+* Event oriented:
+    - There is an event loop that runs constantly.
+    - You can orient your code reactively.
