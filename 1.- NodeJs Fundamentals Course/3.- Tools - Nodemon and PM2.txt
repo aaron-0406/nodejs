@@ -1,0 +1,5 @@
+INSTALAR NODEMON COMO DEPENDENCIA DE DESARROLLO:
+- npm install nodemon --save-dev
+
+INSTALAR PM2:
+- npm install pm2 -g
