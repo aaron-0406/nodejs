@@ -1,0 +1,21 @@
+GLOBAL OBJECTS
+--------------
+
+These objects are available in all modules.
+
+// global
+// clearInterval
+// clearTimeout
+// setInterval
+// setTimeout
+// queueMicrotask
+// performance
+// clearImmediate
+// setImmediate
+
+
+
+** CREATE GLOBAL VARIABLES
+
+-> global.miVariable = 'value';
+-> console.log(miVariable)
