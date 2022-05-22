@@ -1,0 +1,14 @@
+CONSOLE:
+
+* console.log - receive any type and display it to the console.
+* console.info - is equivalent to log but is used to report.
+* console.error - is equivalent to log but is used to errors.
+* console.warn - is equivalent to log but is used to warnings.
+* console.table - display a table from a object (arrays).
+* console.count - start an auto-incrementing count.
+* console.countReset - reset the count to zero.
+* console.time - start a stopwatch in ms.
+* console.timeEnd - ends the stopwatch
+* console.group - allows grouping errors by indentation.
+* console.groupEnd - ends the grouping.
+* console.clear - clean the console.
