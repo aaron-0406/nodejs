@@ -19,7 +19,16 @@ function otherFunction() {
       return 3 + z;
     } catch (error) {
       console.error("Error in async function");
-      console.error(error);
+      callback(error);
     }
   });
+}
+
+try {
+  otherFunction(function (error) {
+    console.log(error.message);
+  });
+} catch (error) {
+  console.error("Some bug");
+  console.error(error);
 }
